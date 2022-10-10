@@ -1,0 +1,114 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    background-color: #000000;
+}
+.formatologo {
+    height: 200px;
+    display: inline;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 5;
+}
+.estiloletra {
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.promociones {
+    height: 200px;
+    width: 1300px;
+    padding-bottom: 100px;
+}
+.estilofooter {
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #55e474de;
+    color: #000000;
+}
+footer {
+    background-color: #55e474de;
+    padding: 0px;
+}   
+.imgmarcasperfumes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    margin: 15px;
+    display: inline-block;
+    height: 110px;
+}
+footer div {
+    background-color: #8a7b7b;
+}
+.h1 {
+    background-color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    height: 50px;
+    padding-top: 10px;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+.portadapagina {
+    margin-bottom: 20px;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;  
+}
+textarea {
+    margin: 15px;
+}
+label {
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.divlogomarcas {
+    height: 200px;
+    text-align: center;
+}
+main {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:hover { 
+    text-decoration: underline;
+}
+section img {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+    display: inline-block;
+    height: 160px;
+    align-items: center;
+}
